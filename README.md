@@ -74,7 +74,7 @@
 ```csharp
   Assert.Single(new List<string>() { "Ruveyda"}) ; //returns true
     
-  Assert.Single(new List<string>() { "Ruveyda", "Batuhan"}) ; //returns false
+  Assert.Single(new List<string>() { "Ruveyda", "Ayşe"}) ; //returns false
 ```
 `IsType:` It is a method that checks the type of the variable it will take in. It is a generic method. Together with the generic, it performs a test to see if the type inside is correct.
 
